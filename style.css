@@ -2,23 +2,24 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: "Inter", sans-serif;
+    
+
 }
 
 /* shared styles */
-.font-inter {
-  font-family: "Inter", sans-serif;
-  font-optical-sizing: auto;
-}
 
-.btn {
+
+.btn1 {
     padding: 12.5px 16px;
     border: none;
     border-radius: 4px;
     background-color: #30B868;
     color: #FFFFFF;
     cursor: pointer;
+    font-weight: 600;
 }
-.btn:hover {
+.btn1:hover {
     background-color: gray;
 }
 
@@ -49,3 +50,99 @@ nav ul a {
     font-size: 16px;
     color: #000000;
 }
+.bannar {
+    background: url(assets/hero-bg.png);
+    background-repeat: no-repeat;
+    padding: 115px 0 180px;
+    background-size: cover;
+    background-position: center;
+
+}
+.container {
+    width: 80%;
+    max-width: 1360px;
+    margin: auto;
+}
+.bannar-content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.bannar-content .top-text {
+    background-color: #FFFFFF;
+    color: #30B868;
+    padding: 7px;
+    font-size: 15px;
+    font-weight: 600;
+    border-radius: 1000px;
+    display: flex;
+    gap: 5px;
+    align-items: center;
+    
+}
+.before{
+    background: #30B868;
+    border-radius: 50%;
+    height: 5px;
+    width: 5px;
+    box-shadow: 0 0 0 2px #79eeaa6c;
+}
+.bannar-content .first{
+    background: #9feec0;
+    border-radius: 50%;
+    width: 11px;
+    height: 11px;
+    box-shadow: 0 0 0 2px #b0c5b56c;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.bannar-content h1 {
+    font-size: 72px;
+    font-weight: 700;
+    color: white;
+    margin-top: 15px;
+    text-align: center;
+    text-transform: capitalize;
+}
+.bannar-content h1 span {
+    color: #30B868;
+    
+}
+.bannar-description {
+    margin-top: 16px;
+    line-height: 35px;
+    color: #FFFFFF;
+    font-size: 18px;
+    text-align: center;
+}
+.bannar-btn{
+    display: flex;
+    gap: 16px;
+    margin-top: 32px;
+
+}
+.button{
+    background-color: #30B868;
+    color: #FFFFFF;
+    padding: 16px;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    outline: none;
+    font-weight: 600;
+}
+#btn1:hover {
+    background: rgba(255, 0, 0, 0);
+    border: 1px solid #FFFFFF;
+}
+.bannar-btn #btn2 {
+    background-color: rgba(255, 0, 0, 0);
+    border: 1px solid #FFFFFF;
+}
+#btn2:hover {
+    background: #FFFFFF;
+    color: #000000;
+}
+
