@@ -62,6 +62,7 @@ nav ul a {
     width: 80%;
     max-width: 1360px;
     margin: auto;
+    /* border: 1px solid red; */
 }
 .bannar-content{
     display: flex;
@@ -114,14 +115,13 @@ nav ul a {
     margin-top: 16px;
     line-height: 35px;
     color: #FFFFFF;
-    font-size: 18px;
+    font-size: 16px;
     text-align: center;
 }
 .bannar-btn{
     display: flex;
     gap: 16px;
     margin-top: 32px;
-
 }
 .button{
     background-color: #30B868;
@@ -145,4 +145,70 @@ nav ul a {
     background: #FFFFFF;
     color: #000000;
 }
+.card-info{
+    max-width: 1360px;
+    margin-bottom: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+}
+.card-info h2 {
+    font-size: 48px;
+    color: #001931;
+    font-weight: bold;
+    margin-top: 50px;
+}
+.card-info p {
+    margin-top: 16px;
+    color: #627382;
+    line-height: 20px;
+}
+.card-section{
+    max-width: 1360px;
+    display: flex;
+    gap: 24px;
+    align-items: center;
+    justify-content: center;
+}
+.card{
+    width: 322px;
+    height: 300px;
+    box-shadow: 0 0 8px 0 #00000023;
+    text-align: center;
+    padding: 0 24px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 35px 24px;
+    border-radius: 5px;
+    
+}
+.card-img {
+    background: #F95555;
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    
+}
+.card h3 {
+    font-size: 24px;
+    font-weight: 600;
+    color: #001931;
+    padding-top: 15px;
+}
+.card p {
+    margin-top: 20px;
+    line-height: 20px;
+    
+    color: #627382;
+}
+
+
 
