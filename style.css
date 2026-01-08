@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* shared styles */
+.font-inter {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+}
+
+.btn {
+    padding: 12.5px 16px;
+    border: none;
+    border-radius: 4px;
+    background-color: #30B868;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+.btn:hover {
+    background-color: gray;
+}
+
+
+
+/* main styles */
+
+nav {
+    display: flex;
+    width: 80%;
+    max-width: 1360px;
+    margin: 0 auto;
+    justify-content: space-between;
+    align-items: center;
+    padding: 16px 0;
+}
+nav .menu {
+    display: flex;
+    list-style: none;
+    gap: 32px;
+    align-items: center;
+}
+.menu li:hover a{
+    color: #30B868;
+}
+nav ul a {
+    text-decoration: none;
+    font-size: 16px;
+    color: #000000;
+}
