@@ -210,5 +210,78 @@ nav ul a {
     color: #627382;
 }
 
+.second-brain{
+    margin: 60px;
+    padding: 60px;
+    
+}
+.brain-container{
+    display: flex;
+    gap: 60px; 
+}
+.brain-info{
+    padding-left: 150px;
+    width: 700px;
+}
+.brain-right{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+}
+.brain-right .first-text {
+    font-size: 16px;
+    color: #30B868;
+    text-transform: uppercase;
+    font-weight: 500;
+    padding-top: 100px; 
+}
+
+.brain-right .second-text {
+    line-height: 20px;
+    color: #627382;
+}
+
+.brain-right h1 {
+    font-size: 48px;
+    font-weight: bold;
+    color: #001931;
+    text-transform: capitalize;
+    
+}
+
+.brain-right-bottom {
+    display: flex;
+    margin-top: 40px;
+    gap: 5px;
+}
+.brain-right-bottom ul li {
+    list-style: none;
+    display: flex;
+    gap: 8px;
+}
+.brain-right-bottom span {
+    color: #001931;
+    line-height: 30px;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+
+ul li img {
+    padding: 5px;
+}
+
+
+.brain-img{
+    height: 600px;
+    width: 500px;
+    padding-right: 60px;
+}
+
+
+
+
+
 
 
