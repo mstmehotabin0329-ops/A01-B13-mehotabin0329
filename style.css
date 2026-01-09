@@ -7,7 +7,7 @@
 
 }
 
-/* shared styles */
+/* start header section */
 
 
 .btn1 {
@@ -22,10 +22,6 @@
 .btn1:hover {
     background-color: gray;
 }
-
-
-
-/* main styles */
 
 nav {
     display: flex;
@@ -145,6 +141,9 @@ nav ul a {
     background: #FFFFFF;
     color: #000000;
 }
+/* End of header section */
+
+/* start Card section */
 .card-info{
     max-width: 1360px;
     margin-bottom: 40px;
@@ -210,6 +209,9 @@ nav ul a {
     color: #627382;
 }
 
+/* End of Card section */
+
+/* start Brain section */
 .second-brain{
     margin: 60px;
     padding: 60px;
@@ -278,8 +280,49 @@ ul li img {
     width: 500px;
     padding-right: 60px;
 }
+/* End brain section */
 
+/* Start Challenge section */
 
+.think-container{
+    display: flex;
+    justify-content: center;
+    padding: 2px 0 120px 0;
+
+}
+.think-box {
+    width: 80%;
+    max-width: 1360px;
+    margin: 0 auto;
+    text-align: center;
+    background-color: #F7F6F2;
+    border-radius: 12px;
+    padding: 80px;
+
+}
+.thick-content h1 {
+    font-weight: bold;
+    font-size: 40px;
+    margin-bottom: 16px;
+    color: #001931;
+}
+.thick-content .start-free {
+    color: #627382;
+    line-height: 24px;
+    margin-bottom: 24px;
+}
+#btn3 {
+    margin-bottom: 16px;
+}
+#btn3:hover {
+    background: #1e4e7a;
+    
+}
+ .thick-content .early-access {
+    color: #627382;
+ }
+
+ /* End Challenge section */
 
 
 
