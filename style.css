@@ -7,9 +7,6 @@
 
 }
 
-/* start header section */
-
-
 .btn1 {
     padding: 12.5px 16px;
     border: none;
@@ -58,7 +55,7 @@ nav ul a {
     width: 80%;
     max-width: 1360px;
     margin: auto;
-    /* border: 1px solid red; */
+   
 }
 .bannar-content{
     display: flex;
@@ -78,7 +75,7 @@ nav ul a {
     align-items: center;
     
 }
-.before{
+.circle{
     background: #30B868;
     border-radius: 50%;
     height: 5px;
@@ -141,9 +138,7 @@ nav ul a {
     background: #FFFFFF;
     color: #000000;
 }
-/* End of header section */
 
-/* start Card section */
 .card-info{
     max-width: 1360px;
     margin-bottom: 40px;
@@ -210,9 +205,7 @@ nav ul a {
     color: #627382;
 }
 
-/* End of Card section */
 
-/* start Brain section */
 .second-brain{
     margin: 60px;
     padding: 60px;
@@ -281,9 +274,7 @@ ul li img {
     width: 500px;
     padding-right: 60px;
 }
-/* End brain section */
 
-/* Start Challenge section */
 
 .think-container{
     display: flex;
@@ -324,9 +315,6 @@ ul li img {
     color: #627382;
  }
 
- /* End Challenge section */
-
-/* start footer */
 footer{
     background-color: #001931;
     height: 350px;
@@ -336,7 +324,6 @@ footer{
     width: 80%;
     max-width: 1360px;
     margin: auto;
-    /* border: 1px solid white; */
 }
 .footer-content {
     display: flex;
